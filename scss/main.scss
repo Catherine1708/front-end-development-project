@@ -5,10 +5,10 @@
 body{
     @include background;
     background: $primary-color;
-    color: #fdbbbb;
+    color: #ff8b07;
     height: 100%;
     margin:0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     line-height: 1.5;
 }
 
