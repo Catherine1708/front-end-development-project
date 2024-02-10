@@ -1,11 +1,12 @@
 @import 'config';
+@import 'menu';
 *{
     box-sizing: border-box;
 }
 body{
     @include background;
     background: $primary-color;
-    color: #ff8b07;
+    color: #ffffff;
     height: 100%;
     margin:0;
     font-family: 'Courier New', Courier, monospace;
@@ -15,7 +16,7 @@ body{
 //Headings
 h1, h2, h3{
     margin:0;
-    font-weight: 400;
+    font-weight: 500;
     &.lg-heading{
         font-size: 6rem;
     }
@@ -28,7 +29,7 @@ h1, h2, h3{
 }
 
 a{
-    color: #ff8b8b;
+    color: #ffffff;
     text-decoration: none;
 }
 

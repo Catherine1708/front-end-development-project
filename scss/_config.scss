@@ -1,5 +1,6 @@
-$primary-color: #c03d3d;
-$secondary-color: #17203b;
+$primary-color: #61bee9;
+$overlay-color: #f7caca;
+$secondary-color: #183281;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.5;
@@ -23,7 +24,7 @@ $background-opacity: 0.5;
                 width: 100%;
                 height: 100%;
                 z-index: -1;
-                background: rgba($primary-color, $background-opacity);
+                background: rgba($overlay-color, $background-opacity);
             }
         }
 
