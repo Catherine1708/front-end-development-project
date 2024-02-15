@@ -9,7 +9,7 @@
     width: 80px;
     height: 10px;
     margin: 0 0 10px 0;
-    background: #fff;
+    background: #000;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -74,7 +74,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
@@ -126,7 +126,7 @@
 
 body {
   background: #61bee9;
-  color: #ffffff;
+  color: #000;
   height: 100%;
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
