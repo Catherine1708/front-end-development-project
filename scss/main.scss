@@ -6,7 +6,7 @@
 }
 body{
     @include background;
-    background: $primary-color;
+
     color: set-text-color($primary-color); //using the function defined in config to define the color
     height: 100%;
     margin:0;
@@ -70,7 +70,7 @@ main{
     }
 }
 
-.about-info{
+.about-info{ //about me page
     display: grid;
     gap: 30px 30px;
     grid-template-areas:
@@ -107,7 +107,8 @@ main{
     }
 }
 
-//Work / Projects
+//Work / Projects (paste the code back under here if want)
+
 .projects{
     display: grid;
     grid-gap: 20px;
